@@ -1,0 +1,100 @@
+<!--
+  Generated template for the DetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="red">
+    <ion-title>商品详情</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content style="background-color: #f5f5f5;overflow-x: hidden;">
+
+  <div style="display:block;position:relative;">
+    <div class="index_focus">
+      <img src="/assets/imgs/1.jpg" style="width: 100%;height: 250px;">
+    </div>
+    <div class="add_contlist" style="margin-top: 0;border-bottom:1px rgba(211,211,211,0.50) solid;padding: 0 15px;">
+      <span class="pallmall_goods_2">时令水果&nbsp;&nbsp;象山枇杷</span>
+      <span class="pallmall_goods_2" style="margin-top: 0;">
+        <span class="pallmall_goodsfont1 fleft">¥88.88</span>
+        <span class="pallmall_goodsfont2 fright" style="padding-left: 2px;">
+          剩余：4000件 </span>
+        <span class="pallmall_goodsfont2 fright">
+          已售：1件 </span>
+      </span>
+    </div>
+
+    <div class="pallmall_goods_6" style="margin-top:0;">
+      <span class="pallmall_goodsfont2 fleft">
+        产品说明：
+      </span>
+      <span class="pallmall_goodsfont3 fleft">
+        &nbsp;5斤装小果，顺丰包邮
+      </span>
+      <a class="fright">
+        <ion-icon ios="ios-more"></ion-icon>
+      </a>
+    </div>
+
+    <div class="pallmall_goods_6" style="margin-top:10px;">
+      <span class="pallmall_goodsfont2 fleft">购买数量(无限制)</span>
+      <span class="linkt1" style="margin: 0 0 0 0;vertical-align: middle;width:40%;">
+        <span class="addbutp">
+          <img src="/assets/imgs/min.png" style="width: 16px;height: 16px;margin-bottom: -3px;" />
+        </span>
+        <input style="width: 25%; min-width: 35px; height: 10px;" class="buynum_button02" value="1" />
+        <span class="addbutp">
+          <img src="/assets/imgs/add.png" style="width: 16px;height: 16px;margin-bottom: -3px;" />
+        </span>
+      </span>
+    </div>
+
+
+    <div class="pallmall_goods_4">
+      <div class="pallmall_goods_3">
+        <span>售后服务</span>
+      </div>
+      <div class="grouptop1_12">
+        <div class="grouptop1_13" style="padding:5px 0;">
+          <div class="" style="  float: left;height: initial;width: 100%;margin-top: 0;line-height: 20px;">
+            <dd class="pallmall_goods_5" style="margin-bottom:10px;"> 个电饭锅违法&nbsp;&nbsp;环境很干净</dd>
+            <dd class="pallmall_goods_5">十大</dd>
+            <dd class="pallmall_goods_5" style="margin-top:10px;">售后服务:</dd>
+            <dd class="pallmall_goods_5">发射方式</dd>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ion-list>
+    <img src="/assets/imgs/1.jpg">
+    <img src="/assets/imgs/1.jpg">
+    <img src="/assets/imgs/1.jpg">
+  </ion-list>
+
+  <div class="shops_totalnew1">
+    <div class="fleft boomtom" style="border-top: 1px solid #ddd;height:50px">
+      <div style="color: #626262; " class="pallmall_goods_7">
+        <div class="boomtomnew" style="height:32px;line-height:32px;text-align:center;">
+          <img src="/assets/imgs/buyicon.png" style="width:24px;height:24px;margin-top:8px;" />
+        </div>
+        <div class="boomtomnew" style="height:18px;line-height:18px;" (click)="goShopCart()"> 购物车</div>
+      </div>&nbsp;&nbsp;
+    </div>
+    <div class="fleft  paybuttonRR2">
+      <span>
+        <font class="fontYuan">加入购物车</font>
+      </span>
+    </div>
+    <div class="fleft paybuttonRR">
+      <span>
+        <font class="fontYuan" (click)="goOrder()">立即购买</font>
+      </span>
+    </div>
+  </div>
+</ion-content>

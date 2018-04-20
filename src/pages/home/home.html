@@ -1,0 +1,109 @@
+<ion-header>
+  <!-- <ion-navbar style="opacity: 0.8" no-border-bottom color="primary">
+    <ion-title>首页</ion-title>
+  </ion-navbar> -->
+</ion-header>
+
+<ion-content fullscreen style="background-color: #efefef">
+  <ion-row *ngIf="spinner1">
+    <ion-col text-center>
+      <ion-spinner></ion-spinner>
+    </ion-col>
+  </ion-row>
+
+  <div>
+    <ion-slides pager autoplay="1000" speed="1200" loop="true" autoplayDisableOnInteration="true">
+      <ion-slide *ngFor="let item of slides" (click)="goDetails(item)">
+        <img src="{{item.PictUrl}}" alt="">
+        <!-- <div class="cover"></div> -->
+        <span class="title">{{item.Title}}</span>
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+
+  <div style="height: 140px; background: #fff;position: relative;clear: both;">
+    <div class="miliftop3" style="margin-top:0;">
+      <div class="milifeslider-1">
+        <div class="miiner1">
+          <div class="imageContent">
+            <img style="width: 3px; height: 16px;" src="/assets/imgs/smallsu.png" />
+          </div>
+          时令抢购
+          <font class="milittlef">&nbsp;&nbsp;欢迎购买，不甜不要钱</font>
+        </div>
+        <div class="miiner2" ng-show="goods.isSale||goods.BeginState">
+          <span class="smallcolock2">20天24:21:28</span>
+        </div>
+      </div>
+      <div class="milifeslider-2">
+        <div class="miiner3">
+          <img style="width: 72px; height: 72px;" src="/assets/imgs/buy1.jpg">
+        </div>
+        <div class="miiner4">
+          <div class="miinersub1"> 正宗象山樊岙枇杷&nbsp;
+            <div style="display: block;">特惠价</div>
+          </div>
+          <div class="miinersub2">
+            <font class="milittlef1">￥88.88</font>
+            &nbsp;&nbsp;
+            <font class="milittlef2">￥108.88</font>
+            <span class="milifespan1" (click)="goDetails()">立即抢购</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- // -->
+
+  <div class="miliftop5">
+
+    <div class="milifeslider-1">
+      <div class="miiner1">
+        <div class="imageContent">
+          <img style="width: 3px; height: 16px;" src="/assets/imgs/smallsu.png" />
+        </div>
+        购买记录
+        <font class="milittlef">&nbsp;&nbsp;每一颗果实都是精选，天然无农药，良心价</font>
+      </div>
+    </div>
+    <div class="milifeslider-3" id="milife_slider_1" style="white-space: nowrap; left: 0;">
+      <ion-slides style="height: 100%;" autoplay="800" speed="800" loop="true" autoplayDisableOnInteration="true">
+        <ion-slide *ngFor="let item of slides" (click)="goDetails(item)"> 
+          <div class="miiner-1">
+            <div class="miinersub-1">
+                <img src="/assets/imgs/ba.png" alt="">
+            </div>
+            <div class="miinersub-2">客户：十年砍柴</div>
+            <div class="miinersub-3">购买3件</div>
+          </div>
+          <div class="miiner-1">
+            <div class="miinersub-1">
+                <img src="/assets/imgs/ba.png" alt="">
+            </div>
+            <div class="miinersub-2">客户：十年砍柴</div>
+            <div class="miinersub-3">购买3件</div>
+          </div>
+          <div class="miiner-1">
+            <div class="miinersub-1">
+                <img src="/assets/imgs/ba.png" alt="">
+            </div>
+            <div class="miinersub-2">客户：十年砍柴</div>
+            <div class="miinersub-3">购买3件</div>
+          </div>
+          <div class="miiner-1">
+            <div class="miinersub-1">
+                <img src="/assets/imgs/ba.png" alt="">
+            </div>
+            <div class="miinersub-2">客户：十年砍柴</div>
+            <div class="miinersub-3">购买3件</div>
+          </div>
+        </ion-slide>
+      </ion-slides>
+    </div>
+  </div>
+
+  <!-- 新鲜事儿（新闻页） -->
+  <news></news>
+
+</ion-content>

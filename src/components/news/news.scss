@@ -1,0 +1,99 @@
+news {
+    .cardtop_6_4{
+        line-height: 40px;
+        border: none;
+        font-size: 15px;
+        color: #666666;
+        background: #ffffff;
+        width: 100%;
+        clear: both;
+        padding: 0 15px;
+        display: inline-block;
+      }
+    .myorder_top4 {
+        height: 108px;
+        float: left;
+        width: calc(100% - 15px);
+        text-align: left;
+        padding: 18px 0;
+        margin-left: 15px;
+        border-top: 1px solid #d9d9d9;
+        background-color: #fff;
+    }
+    .myorder_top4_1{
+        font-size: 12px;
+        color: #333333;
+        letter-spacing: -0.34px;
+        text-align: left;
+        height: 72px;
+        float: left;
+        display: inline-block;
+      }
+    .myorder_top4_2{
+        text-align: left;
+        height: 72px;
+        float: none;
+        margin-left: 15px;
+        width: calc(100% - 92px);
+        display: inline-block;
+        position: relative;
+      }
+    .myorder_top4_3 {
+        font-size: 15px;
+        color: #333333;
+        letter-spacing: 0;
+        font-weight:600;
+        text-align: left;
+        height: 21px;
+        line-height: 21px;
+      }
+    .myorder_top4_4 {
+        font-size:12px;
+        color:#999999;
+        font-weight:400;
+        text-align: left;
+        height: 26px;
+        line-height: 17px;
+        padding-top:9px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    .myorder_top4_5 {
+        background:#ffffff;
+        border:1px solid #02c476;
+        border-radius:100px;
+        height:24px;
+        font-size:12px;
+        color:#02c476;
+        text-align: center;
+        float: right;
+        font-weight: normal;
+        line-height: 24px;
+        position: absolute;
+        right: 10px;
+        bottom: 0;
+        padding: 0 7px;
+      }
+    .myorder_top4_6{
+        float: left;
+        width: calc(100% - 60px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    .cardtop_6_5{
+        text-align: right;
+        float: right;
+        margin-right: 15px;
+        overflow: hidden;
+        max-width: 40%;
+        white-space: nowrap;
+    }
+    .newsBody{
+        font-size:12px;
+        color:#666666;
+        font-weight: normal;
+        width: 100%;
+    }
+}

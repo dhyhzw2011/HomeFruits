@@ -1,0 +1,141 @@
+page-shopcart {
+  .shop-list {
+    background: #fafafa;
+    height: 100px;
+    margin: 10px 15px;
+
+    .select {
+      width: 20px;
+      height: 20px;
+      margin: 40px 10px;
+      float: left;
+    }
+
+    .cartImg {
+      width: 80px;
+      height: 80px;
+      margin: 10px 5px;
+      float: left;
+
+    }
+    .cartIns1, .cartIns2 {
+      position: relative;
+      top: 20px;
+    }
+    .cartIns2 {
+      top: 40px;
+      text-align: left;
+      color: #ff8377;
+    }
+    .addormin {
+      position: relative;
+      width: 150px;
+      height: 50px;
+      top: -10px;
+      left: 230px;
+    }
+    .buynum {
+      width: 30px;
+    }
+    .min, .add {
+      width: 16px;
+      height: 16px;
+      position: relative;
+    }
+    .min {
+      float: left;
+      margin-top: 15px;
+      margin-left: -100px;
+    }
+    .buynum {
+      margin-top: 14px;
+      margin-left: -82px;
+      text-align: center;
+      border: 0px;
+      background: #fafafa;
+    }
+    .add {
+      float: left;
+      margin-top: 15px;
+      margin-left: -50px;
+    }
+
+    .del {
+      background: #ff8377;
+      border-radius: 100px;
+      width: 35px;
+      height: 20px;
+      font-size: 12px;
+      text-align: center;
+      font-weight: normal;
+      position: relative;
+      top: -80px;
+      left: 340px;
+    }
+    .delSpan {
+      position: relative;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: normal;
+      top: -13px;
+    }
+  }
+
+  .shops_totalnew1 {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 53px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: left;
+    padding: 0;    
+    border: 1px solid #f1f1f1;
+  }
+  .boomtom {
+    padding: 0 2%;
+    margin: 0;
+    width: 35%;
+  }
+  .pallmall_goods_7 {
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    float: left;
+  }
+  .boomtomnew {
+    text-align: center;
+    color: #626262
+  }
+  .paybuttonRR {
+    width: 30%;
+    background: #ff8377;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+  }
+  .paybuttonRR2 {
+    width: 35%;
+    text-align: center;
+    color: #626262;
+  }
+  .fontYuan {
+    font-size: 16px;
+  }
+  .fleft {
+    float: left;
+  }
+  .fright {
+    float: right;
+  }
+  .select2{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+  }
+}
